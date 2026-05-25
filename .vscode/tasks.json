@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "sequoia: set debug theme",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/scripts/set-debug-theme.js",
+        "${input:sequoiaDebugTheme}"
+      ]
+    }
+  ]
+}
